@@ -9,7 +9,7 @@ on:
     branches: ["main"]
 jobs:
   test_django:
-    uses: olara87/django-k8s-cluster-new/.github/workflows/test_django.yaml@main
+    uses: olara87/django-k8s-cluster-new/.github/workflows/test-django.yaml@main
   docker_build:
     runs-on: ubuntu-latest
     env:
