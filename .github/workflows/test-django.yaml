@@ -13,8 +13,8 @@ jobs:
     env:
       DJANGO_SECRET_KEY: test-key-not-good-maybe-make-one-better
       POSTGRES_DB: dockerdc
-      POSTGRES_USERNAME: myuser
-      POSTGRES_PASSWORD: mysecretpassword
+      POSTGRES_USERNAME: postgres
+      POSTGRES_PASSWORD: Centreville0528
       POSTGRES_HOST: localhost
       POSTGRES_PORT: 5432
       DB_IGNORE_SSL: "true"
