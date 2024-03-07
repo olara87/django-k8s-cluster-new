@@ -17,6 +17,7 @@ jobs:
       POSTGRES_PASSWORD: mysecretpassword
       POSTGRES_HOST: localhost
       POSTGRES_PORT: 5432
+      DB_IGNORE_SLL: true
     services:
       postgres_main:
         image: postgres:16
